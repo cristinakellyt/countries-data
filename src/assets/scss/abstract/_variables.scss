@@ -1,0 +1,28 @@
+// COLORS
+$dark-blue: rgb(43, 57, 69);
+$very-dark-blue-background: rgb(32, 44, 55);
+$very-dark-blue-text: rgb(17, 21, 23);
+$dark-gray: rgb(133, 133, 133);
+$very-light-gray: rgb(250, 250, 250);
+
+$pure-white: rgb(255, 255, 255);
+
+// UTILITIES
+
+$max-width: pxToRem(1440);
+
+// PLACEHOLDERS SELECTOR
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// MEDIA QUERIES
+
+$laptop: 90em; // 1440px
+$laptop-medium: 64em; // 1024px
+$tablet: 48em; //768px
+$mobile-large: 26.563em; //425px
+$mobile-medium: 23.438em; //375px
+$mobile-small: 20em; //320px
